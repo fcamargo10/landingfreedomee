@@ -1,0 +1,78 @@
+@font-face {
+    font-family: POPPINS-LIGHT;
+    src: url('../font/POPPINS-LIGHT.TTF');
+}
+
+@font-face {
+    font-family: LULO-CLEAN-W1;
+    src: url('../font/LULO-CLEAN-W01-ONE-BOLD.TTF');
+}
+
+html, body {
+    height: 100%;
+}
+
+.container-fluid {
+    height: 100%;
+    width: 80%;
+}
+
+.main {
+    border: 3px solid #CD99FD;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+@media (max-width:560px) {
+    .main {
+        border: 3px solid #CD99FD;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        padding-bottom: 60px;
+    }
+    .container-fluid {
+        width: 90%;
+    }
+}
+
+.dvleft {
+    border-right: 4px solid yellow;
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    right: 0;
+    top: 0;
+}
+
+p.site-construcao {
+    font-size: 20px;
+}
+
+p.text2 {
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+p.text3 {
+    font-size: 22px;
+    margin-top: 30px
+}
+
+.poppins-light {
+    font-family: POPPINS-LIGHT;
+}
+
+.lulo-clean {
+    font-family: LULO-CLEAN-W1;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black !important;
+    opacity: 1;
+    /* Firefox */
+}
+
+.bgroxo {
+    background-color: #CB99FD
+}
